@@ -54,6 +54,7 @@ Also about karabiner > Settings > Simple Modifications > LDLC AZERTY+ (A4Tech)
 | volta | https://volta.sh/ | Node.js version manager |
 | Jetbrains Toolbox | https://www.jetbrains.com/fr-fr/toolbox-app/ | IDE Installer tool from jetbrains |
 | WebStorm | https://www.jetbrains.com/fr-fr/webstorm/ | HTML - CSS - JS IDE from Jetbrains |
+| Zed | https://zed.dev/download | lightweight text editor |
 
 ## git setup
 
