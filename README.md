@@ -4,39 +4,42 @@ mac tools for a windows/linux origin developer
 
 # Basic tools
 
-| name | link | note |
-|---|---|---|
-| Firefox | https://www.mozilla.org/fr/firefox/new/ | |
-| Bitwarden | https://bitwarden.com/download/ | also available in mac store |
+| name                 | link                                                                                  | note                        |
+|----------------------|---------------------------------------------------------------------------------------|-----------------------------|
+| Firefox              | https://www.mozilla.org/fr/firefox/new/                                               |                             |
+| Bitwarden            | https://bitwarden.com/download/                                                       | also available in mac store |
 | Yubiko Authenticator | https://www.yubico.com/products/yubico-authenticator/#h-download-yubico-authenticator | also available in mac store |
-| Discord | https://discord.com/ | |
-| Telegram Lite | https://desktop.telegram.org/ | available in mac store |
+| Discord              | https://discord.com/                                                                  |                             |
+| Telegram Lite        | https://desktop.telegram.org/                                                         | available in mac store      |
 
 ## Firefox extensions
 
-| name | link | note |
-|---|---|---|
-| uBlock Origin | https://addons.mozilla.org/fr/firefox/addon/ublock-origin/ | Block Ads |
-| Consent-O-Matic | https://addons.mozilla.org/en-US/firefox/addon/consent-o-matic/ | refuse all tracking cookies, hide banner |
-| SponsorBlock | https://addons.mozilla.org/fr/firefox/addon/sponsorblock/ | Skip sponsor in videos |
-| Return YouTube Dislike | https://addons.mozilla.org/en-US/firefox/addon/return-youtube-dislikes/ |  |
-| Firefox Multi-Account Containers | https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/ | usefull to manage different identities on same sites |
-| Bitwarden | https://addons.mozilla.org/fr/firefox/addon/bitwarden-password-manager/ | |
-| FreshRSS-Notify | https://addons.mozilla.org/fr/firefox/addon/freshrss-notify-webextension/ | Get notifications of my rss feeds |
-| React Developer Tools | https://addons.mozilla.org/en-US/firefox/addon/react-devtools/ |  |
-| JSON Lite | https://addons.mozilla.org/en-US/firefox/addon/json-lite/ | view json file in browser |
-| XML Viewer Plus | https://addons.mozilla.org/fr/firefox/addon/xml-viewer/ | View XML in browser |
+| name                             | link                                                                      | note                                                 |
+|----------------------------------|---------------------------------------------------------------------------|------------------------------------------------------|
+| uBlock Origin                    | https://addons.mozilla.org/fr/firefox/addon/ublock-origin/                | Block Ads                                            |
+| Consent-O-Matic                  | https://addons.mozilla.org/en-US/firefox/addon/consent-o-matic/           | refuse all tracking cookies, hide banner             |
+| SponsorBlock                     | https://addons.mozilla.org/fr/firefox/addon/sponsorblock/                 | Skip sponsor in videos                               |
+| Return YouTube Dislike           | https://addons.mozilla.org/en-US/firefox/addon/return-youtube-dislikes/   |                                                      |
+| Firefox Multi-Account Containers | https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/     | usefull to manage different identities on same sites |
+| Bitwarden                        | https://addons.mozilla.org/fr/firefox/addon/bitwarden-password-manager/   |                                                      |
+| FreshRSS-Notify                  | https://addons.mozilla.org/fr/firefox/addon/freshrss-notify-webextension/ | Get notifications of my rss feeds                    |
+| React Developer Tools            | https://addons.mozilla.org/en-US/firefox/addon/react-devtools/            |                                                      |
+| JSON Lite                        | https://addons.mozilla.org/en-US/firefox/addon/json-lite/                 | view json file in browser                            |
+| XML Viewer Plus                  | https://addons.mozilla.org/fr/firefox/addon/xml-viewer/                   | View XML in browser                                  |
 
 # Utils tools
 
-| name | link | note |
-|---|---|---|
-| french-nf-azerty-mac  | https://github.com/cyril-L/french-nf-azerty-mac | French NF Z 71‐300 Layout |
-| Karabiner-Elements | https://karabiner-elements.pqrs.org/ | A powerful and stable keyboard customizer for macOS. To combine with `PC-Style Shortcuts` |
-| PC-Style Shortcuts | https://ke-complex-modifications.pqrs.org/#pc_shortcuts | allow to use classical Windows/Linux Shortcuts style |
-| BetterDisplay | https://github.com/waydabber/BetterDisplay#readme | I used it to have HiDPI FHD resolution on my external screen |
+| name                 | link                                                    | note                                                                                      |
+|----------------------|---------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| french-nf-azerty-mac | https://github.com/cyril-L/french-nf-azerty-mac         | French NF Z 71‐300 Layout                                                                 |
+| Karabiner-Elements   | https://karabiner-elements.pqrs.org/                    | A powerful and stable keyboard customizer for macOS. To combine with `PC-Style Shortcuts` |
+| PC-Style Shortcuts   | https://ke-complex-modifications.pqrs.org/#pc_shortcuts | allow to use classical Windows/Linux Shortcuts style                                      |
+| BetterDisplay        | https://github.com/waydabber/BetterDisplay#readme       | I used it to have HiDPI FHD resolution on my external screen                              |
+| Rectangle            | https://rectangleapp.com/                               | intuitive tiling snaps                                                                    |
 
-Thanks to [@JonathanReez](https://apple.stackexchange.com/questions/312656/how-can-i-reprogram-osx-to-use-windows-style-shortcuts-for-all-operations/312864#312864) for Karabiner and Shortcuts tip.
+Thanks
+to [@JonathanReez](https://apple.stackexchange.com/questions/312656/how-can-i-reprogram-osx-to-use-windows-style-shortcuts-for-all-operations/312864#312864)
+for Karabiner and Shortcuts tip.
 Also about karabiner > Settings > Simple Modifications > LDLC AZERTY+ (A4Tech)
 
 - keypad_period > m (like that numpad dot will input a dot instead comma)
@@ -45,16 +48,17 @@ Also about karabiner > Settings > Simple Modifications > LDLC AZERTY+ (A4Tech)
 
 # Dev tools
 
-| name | link | note |
-|---|---|---|
-| Homebrew | https://brew.sh/index_fr | MacOS Package manager |
-| git | https://git-scm.com/download/mac | `brew install git` |
-| gpg | https://gnupg.org/ | `brew install gpg` |
-| pinentry | https://github.com/GPGTools/pinentry | `brew install pinentry-mac` |
-| volta | https://volta.sh/ | Node.js version manager |
-| Jetbrains Toolbox | https://www.jetbrains.com/fr-fr/toolbox-app/ | IDE Installer tool from jetbrains |
-| WebStorm | https://www.jetbrains.com/fr-fr/webstorm/ | HTML - CSS - JS IDE from Jetbrains |
-| Zed | https://zed.dev/download | lightweight text editor |
+| name              | link                                         | note                               |
+|-------------------|----------------------------------------------|------------------------------------|
+| Homebrew          | https://brew.sh/index_fr                     | MacOS Package manager              |
+| git               | https://git-scm.com/download/mac             | `brew install git`                 |
+| gpg               | https://gnupg.org/                           | `brew install gpg`                 |
+| pinentry          | https://github.com/GPGTools/pinentry         | `brew install pinentry-mac`        |
+| volta             | https://volta.sh/                            | Node.js version manager            |
+| Jetbrains Toolbox | https://www.jetbrains.com/fr-fr/toolbox-app/ | IDE Installer tool from jetbrains  |
+| WebStorm          | https://www.jetbrains.com/fr-fr/webstorm/    | HTML - CSS - JS IDE from Jetbrains |
+| Zed               | https://zed.dev/download                     | lightweight text editor            |
+| iTerm2            | https://iterm2.com/downloads.html            | better terminal                    |
 
 ## git setup
 
@@ -85,7 +89,8 @@ Host github.com
   IdentityFile ~/.ssh/id_ed25519_tpoisseau_github
 ```
 
-Add in GH account https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account
+Add in GH
+account https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account
 
 ```zsh
 pbcopy < ~/.ssh/id_ed25519_tpoisseau_github
