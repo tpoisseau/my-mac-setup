@@ -36,6 +36,7 @@ mac tools for a windows/linux origin developer
 | PC-Style Shortcuts   | https://ke-complex-modifications.pqrs.org/#pc_shortcuts | allow to use classical Windows/Linux Shortcuts style                                      |
 | BetterDisplay        | https://github.com/waydabber/BetterDisplay#readme       | I used it to have HiDPI FHD resolution on my external screen                              |
 | Rectangle            | https://rectangleapp.com/                               | intuitive tiling snaps                                                                    |
+| Raycast              | https://www.raycast.com/                                | Better Spotligth `brew install --cask raycast`                                            |
 
 Thanks
 to [@JonathanReez](https://apple.stackexchange.com/questions/312656/how-can-i-reprogram-osx-to-use-windows-style-shortcuts-for-all-operations/312864#312864)
