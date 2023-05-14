@@ -11,6 +11,7 @@ mac tools for a windows/linux origin developer
 | Yubiko Authenticator | https://www.yubico.com/products/yubico-authenticator/#h-download-yubico-authenticator | also available in mac store |
 | Discord              | https://discord.com/                                                                  |                             |
 | Telegram Lite        | https://desktop.telegram.org/                                                         | available in mac store      |
+| Obsidian             | https://obsidian.md/                                                                  | note-taking tool            |
 
 ## Firefox extensions
 
@@ -37,11 +38,12 @@ mac tools for a windows/linux origin developer
 | BetterDisplay        | https://github.com/waydabber/BetterDisplay#readme       | I used it to have HiDPI FHD resolution on my external screen                              |
 | Rectangle            | https://rectangleapp.com/                               | intuitive tiling snaps                                                                    |
 | Raycast              | https://www.raycast.com/                                | Better Spotligth `brew install --cask raycast`                                            |
+| AltTab               | https://alt-tab-macos.netlify.app/                      | window navigation `brew install --cask alt-tab`                                           |
 
 Thanks
 to [@JonathanReez](https://apple.stackexchange.com/questions/312656/how-can-i-reprogram-osx-to-use-windows-style-shortcuts-for-all-operations/312864#312864)
 for Karabiner and Shortcuts tip.
-Also about karabiner > Settings > Simple Modifications > LDLC AZERTY+ (A4Tech)
+Also, about karabiner > Settings > Simple Modifications > LDLC AZERTY+ (A4Tech)
 
 - keypad_period > m (like that numpad dot will input a dot instead comma)
 - non_us_backslash > grave_accent_and_tilde (because my `@` and `<` key are inverted)
@@ -49,17 +51,20 @@ Also about karabiner > Settings > Simple Modifications > LDLC AZERTY+ (A4Tech)
 
 # Dev tools
 
-| name              | link                                         | note                               |
-|-------------------|----------------------------------------------|------------------------------------|
-| Homebrew          | https://brew.sh/index_fr                     | MacOS Package manager              |
-| git               | https://git-scm.com/download/mac             | `brew install git`                 |
-| gpg               | https://gnupg.org/                           | `brew install gpg`                 |
-| pinentry          | https://github.com/GPGTools/pinentry         | `brew install pinentry-mac`        |
-| volta             | https://volta.sh/                            | Node.js version manager            |
-| Jetbrains Toolbox | https://www.jetbrains.com/fr-fr/toolbox-app/ | IDE Installer tool from jetbrains  |
-| WebStorm          | https://www.jetbrains.com/fr-fr/webstorm/    | HTML - CSS - JS IDE from Jetbrains |
-| Zed               | https://zed.dev/download                     | lightweight text editor            |
-| iTerm2            | https://iterm2.com/downloads.html            | better terminal                    |
+| name               | link                                            | note                                            |
+|--------------------|-------------------------------------------------|-------------------------------------------------|
+| Homebrew           | https://brew.sh/index_fr                        | MacOS Package manager                           |
+| git                | https://git-scm.com/download/mac                | `brew install git`                              |
+| gpg                | https://gnupg.org/                              | `brew install gpg`                              |
+| pinentry           | https://github.com/GPGTools/pinentry            | `brew install pinentry-mac`                     |
+| volta              | https://volta.sh/                               | Node.js version manager                         | 
+| Jetbrains Toolbox  | https://www.jetbrains.com/fr-fr/toolbox-app/    | IDE Installer tool from jetbrains               |
+| WebStorm           | https://www.jetbrains.com/fr-fr/webstorm/       | HTML - CSS - JS IDE from Jetbrains              |
+| Zed                | https://zed.dev/download                        | lightweight text editor                         |
+| iTerm2             | https://iterm2.com/downloads.html               | better terminal                                 |
+| fig                | https://fig.io/                                 | terminal autocomplete `brew install --cask fig` |
+| Visual Studio Code | https://code.visualstudio.com/                  | code editing tool                               |
+| Docker Desktop     | https://www.docker.com/products/docker-desktop/ | application containerizer                       |
 
 ## git setup
 
@@ -90,8 +95,8 @@ Host github.com
   IdentityFile ~/.ssh/id_ed25519_tpoisseau_github
 ```
 
-Add in GH
-account https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account
+Add in GH account  
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account
 
 ```zsh
 pbcopy < ~/.ssh/id_ed25519_tpoisseau_github
